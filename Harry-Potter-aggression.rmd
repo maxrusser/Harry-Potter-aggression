@@ -1,0 +1,22 @@
+---
+title: "Harry Potter Lab 6"
+author: "Max Russer"
+date: "November 7, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Load packages and read in the data
+
+```{r message = FALSE}
+
+library(tidyverse)
+
+hp_data <-read_csv("harry_potter_aggression_full.csv")
+
+
+```
+
